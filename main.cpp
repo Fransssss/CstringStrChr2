@@ -49,10 +49,10 @@ int main()
             }
         } else
         {
-            cerr << "Invalid input" << endl;
+            cerr << "Invalid input";
         }
 
-        cout << "Would you like to locate a character Y/N ?";
+        cout << endl << "Would you like to locate a character Y/N ?";
         cin >> choice;
         cout << endl;
     }
